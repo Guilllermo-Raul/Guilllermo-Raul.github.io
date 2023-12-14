@@ -1,0 +1,286 @@
+ <div class="container mt-4">
+              <div class="card" id="toursid">
+                <div class="card-body bg-light">
+                 <h3 class="card-title " id="tours">TOURS QUE OFRECEMOS</h3>
+                  <!-- Inicio del Carrusel -->
+                
+                  <br>
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  data-interval="false">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      
+                    </ol>
+                 
+                    <div class="carousel-inner">
+                    <br><br> 
+                      <div class="carousel-item active">
+                      <h4 class="">Tours de Aventura .</h4>
+                          <div class="row">
+                              <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card border-success bg-success text-white">
+                                  <img src="images/maravillas-bosque.jpeg"  width="180px" height="180px"  class="card-img-top" alt="...">
+                                  <div class="card-body"  width:450px; height:300px; overflow-y: scroll; >
+                                    <h5 class="card-title">Maravillas del bosque</h5>
+                                    <p class="card-text text-white">Disfruta de las más bellas cascadas 
+                                      escondidas del bosque en nuestro hike ...     <br>     <br>
+                                              <!-- Button trigger modal -->
+                                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                                Ver más
+                                              </button>
+
+                                      
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card border-success bg-success text-white">
+                                  <img src="images/canonismo-las-palomas.jpeg"  width="180px" height="220px" class="card-img-top" alt="...">
+                                  <div class="card-body" width:450px; height:300px;  overflow-y: scroll;>
+                                    <h5 class="card-title  text-white ">Salto De las Palomas.</h5>
+                                    <p class="card-text   text-white">Esta actividad consta de 5 descensos a rappel que van desde los 3 a los 20 metros..</p>
+
+                                    <!-- Button trigger modal --><br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#palomas">
+                                      Ver más
+                                    </button>
+
+                                 
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card">
+                                  <img src="images/rappel-mirador.jpeg" width="190px" height="220px" class="card-img-top" alt="...">
+                                  <div class="card-body" width:450px; height:300px;  overflow-y: scroll;>
+                                    <h5 class="card-title">Rappel Mirador del Cedral+ Las Goteras   </h5>
+                                    <p class="card-text">Dos miradores panorámicos + Rappel +Escalada ..</p>
+
+
+                                     <!-- Button trigger modal --><br><br>
+                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rappelmirador">
+                                      Ver más
+                                    </button>
+
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card">
+                                  <img src="images/rappel-panoram.jpeg" width="190px" height="250px" class="card-img-top" alt="...">
+                                  <div class="card-body" width:450px; height:300px;  overflow-y: scroll;>
+                                 
+                                    <h5 class="card-title">Rappel Panorámico</h5>
+                                    <p class="card-text">Vive la aventura en este rappel con unas vistas espectaculares...</p>
+
+                                    <!-- Button trigger modal --><br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#canonismochico">
+                                      Ver más
+                                    </button>
+
+                               
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                      </div>
+                      <div class="carousel-item">
+                          <div class="row">
+                            <h4>Tours de ecoturismo.</h4>
+                              <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card border-success bg-dark text-white">
+                                  <img src="images/amanecer-magico.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Amanecer Mágico</h5>
+                                    <p class="card-text text-white">Vive la experiencia de ver un amanecer mágico...</p>
+                                    
+                                    <!-- Button trigger modal --><br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ecoturismo">
+                                      Ver más
+                                    </button>
+
+                                   
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                              <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card">
+                                  <img src="images/senderismo-panoramico.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Senderismo panorámico</h5>
+                                    <p class="card-text">Disfruta de las más bellas vistas del bosque en nuestro hike...</p>
+
+                                             <!-- Button trigger modal --><br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#senderismo">
+                                      Ver más
+                                    </button>
+
+                                   
+
+
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                              <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card">
+                                  <img src="images/atardecer.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Atardecer en el bosque</h5>
+                                    <p class="card-text">Despide el día con una bella puesta de sol, después de una relajante caminata</p>
+
+
+                                      <!-- Button trigger modal --><br><br>
+                                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#atardecerbosque">
+                                        Ver más
+                                      </button>
+  
+                                      
+
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                              <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                                <div class="card">
+                                  <img src="images/brujitas.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Cañonismo Brujitas</h5>
+                                    <p class="card-text"> Esta actividad consta de 5 descensos a rappel que van desde los 3 a los 15 metros, </p>
+
+
+                                    <!-- Button trigger modal --><br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#brujitas">
+                                      Ver más
+                                    </button>
+
+                                  
+
+
+
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                      </div>
+                    
+                      <div class="carousel-item">
+                        <div class="row">
+                          <h4>TOURS3.</h4>
+                            <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                              <div class="card border-success bg-dark text-white">
+                                <img src="images/recorridopueblo.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Recorrido Pueblo Mágico</h5>
+                                  <p class="card-text text-white">En este recorrido disfrutarás de los imperdibles de Mineral del Chico...</p>
+                                  
+                                  <!-- Button trigger modal --><br><br>
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pueblomagico">
+                                    Ver más
+                                  </button>
+
+                                 
+
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                              <div class="card">
+                                <img src="images/monjas.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Senderismo a Las Monjas</h5>
+                                  <p class="card-text">Llega a la cumbre de las peñas más emblemáticas de 📍Mineral del Chico....</p>
+
+                                           <!-- Button trigger modal --><br><br>
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#senderismomonjas">
+                                    Ver más
+                                  </button>
+
+                               
+
+
+
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                              <div class="card">
+                                <img src="images/atardecer.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Atardecer en el bosque</h5>
+                                  <p class="card-text">Despide el día con una bella puesta de sol, después de una relajante caminata</p>
+
+
+                                    <!-- Button trigger modal --><br><br>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#atardecerbosque">
+                                      Ver más
+                                    </button>
+
+                                  
+
+
+
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class=" col-6 col-sm-6 col-md-6 col-lg-3 mb-4 card-col">
+                              <div class="card">
+                                <img src="images/brujitas.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Cañonismo Brujitas</h5>
+                                  <p class="card-text"> Esta actividad consta de 5 descensos a rappel que van desde los 3 a los 15 metros, </p>
+
+
+                                  <!-- Button trigger modal --><br><br>
+                                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#brujitas">
+                                    Ver más
+                                  </button>
+
+                                 
+
+
+
+
+
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+
+
+                    </div>
+                    <br><br><br><br><br><br>
+                    <a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Siguiente</span>
+                    </a>
+                  </div>
+                  <!-- Fin del Carrusel -->
+                </div>
+              </div>
+            </div>

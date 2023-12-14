@@ -1,0 +1,445 @@
+
+.preloader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.spinner {
+  border: 8px solid rgb(255, 128, 0);
+  border-top: 8px solid transparent;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px; /* Mitad del tamaño del círculo */
+  margin-left: -50px; /* Mitad del tamaño del círculo */
+  animation: spinnerAnimation 1s linear infinite;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+#preimg {
+  width: 98px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes spinnerAnimation {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.content {
+  display: none; /* Oculta el contenido hasta que se complete la carga */
+}
+
+
+  
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  .boton-flotante {
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    background-color: #f0b359;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*seccion de img quienes somos*/
+
+.slider-img {
+  display: flex;
+  max-width: 600px; /* Establecer un ancho máximo */
+  width: 100%; /* Hacer que se ajuste al ancho del contenedor padre */
+  height: auto; /* Altura automática para mantener la proporción */
+  overflow: hidden; /* Ocultar contenido adicional si es necesario */
+}
+
+.slider-img .imgslide {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+.slider-img .imgslide:hover {
+  cursor: crosshair;
+  width: 100%; /* Cambiar a ancho completo en hover */
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+
+
+
+/*tres img*/
+#servicios_mobil>div.col-12 {
+  height: auto;
+}
+
+.f75 {
+  font-size: 30px;
+  letter-spacing: 10px;
+  height: 600px;
+  float: left;
+  text-align: center;
+  line-height: 550px;
+  width: 100%;
+ 
+  
+}
+
+/*.f44 {
+  font-size: 90px;
+  height: 300px;
+  float: left;
+  text-align: center;
+  line-height: 225px;
+  letter-spacing: -20px;
+  width: 100%;
+}*/
+.f44 {
+  font-size: 38px;
+  letter-spacing: 10px;
+  height: 300px;
+  float: left;
+  text-align: center;
+  line-height: 225px;
+
+  width: 100%;
+}
+
+
+/*salto de las palomas*/
+#palomas{
+  width: 280px;
+  height: 300px;
+  
+}
+
+#cedral{
+  width: 280px;
+  height: 300px;
+}
+#rappelpano{
+  width: 260px;
+  height: 300px;
+}
+#brujitas{
+  width: 260px;
+  height: 300px;
+}
+
+#amanecer{
+  width: 260px;
+  height: 300px;
+}
+#senderismop{
+  width: 260px;
+  height: 300px;
+}
+/* Estilos para el modal */
+.modal-content {
+  overflow: hidden; /* Evita que el contenido sobresalga del modal */
+}
+
+/* Estilos para el contenido scrollable */
+.scrollable-text {
+  max-height: 300px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+
+
+
+/* mapa*/
+@media (max-width: 600px) {
+    iframe {
+      width: 100%;
+    }
+  }
+
+  #textoOculto {
+    display: none;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#centrartexto{
+    text-align: center;
+}
+#textoOculto {
+    display: none;
+    margin-top: 10px;
+}
+
+#textoOculto p {
+    margin: 5px 0;
+}
+.inline-space {
+    margin-right: 220px; /* Ajusta el espacio según tus necesidades */
+}
+.inline-space1 {
+    margin-right: 180px; /* Ajusta el espacio según tus necesidades */
+}
+.inline-space2 {
+    margin-right: 198px; /* Ajusta el espacio según tus necesidades */
+}
+.inline-space3 {
+    margin-right: 190px; /* Ajusta el espacio según tus necesidades */
+}
+
+.inline-space5 {
+    margin-right: 100px; /* Ajusta el espacio según tus necesidades */
+}
+a{
+    text-decoration: none;
+}
+
+.pie-pagina{
+    
+    width: 100%;
+   /* background-color: #2983cca2;*/
+   background-image: 
+   url(../images/fondo-pie-pagina.jpeg);
+
+}
+
+
+#mapa{
+        margin: 0%;
+    
+    background-image: url(../images/fondo-mapa.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh; /* Establece la altura mínima al 100% de la ventana visible */
+        width: 100%; /* Abarcará todo el ancho disponible */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #000000;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #000000;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 65px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    background-color: #0a1a2a;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina{
+    
+        width: 100%;
+        
+    
+       background-image: url('/images/fondo-pie-pagina.jpeg');
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+       
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: #fffefe;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 65px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #0a1a2a;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+}
+
+/*-----------------------ESTILO QUIENES SOMOS--------------*/
+
+#imagenquien {
+    
+    width: 300px;
+}
+@keyframes mover {
+    0% {
+        transform: translate(100%);
+    }
+    
+}
+.naturaleza {
+    
+    width: 300px;
+}
+@keyframes mover {
+    0% {
+        transform: translate(100%);
+    }
+    
+}
+
+#contentext{
+    font-size: 20px;
+    text-align: justify;
+    
+    
+}
+#contentext1{
+    font-size: 20px; 
+    text-align: center;
+    color: #FFF;
+    background-image: url(../images/fondo-pantalla.jpeg);
+}
+
+.gray-text {
+    color: gray; /* Cambia el color del texto a gris */
+  }
+  .textoExperiencia{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+  } 
+
+
+
+  /*maquina de escribir */
+
+  .maquina-de-escribir {
+    overflow: hidden;
+  }
+  
+  #texto-maquina {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: maquina-de-escribir 4s steps(40) 1s forwards;
+  }
+  
+  @keyframes maquina-de-escribir {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* Estilos adicionales para dispositivos móviles */
+  @media (max-width: 767px) {
+    #texto-maquina {
+      font-size: 11px; /* Tamaño de letra más pequeño para pantallas más pequeñas */
+    }
+  } 
+
+
+

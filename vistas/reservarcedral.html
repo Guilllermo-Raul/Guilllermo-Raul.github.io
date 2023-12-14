@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Asistencia al Evento</title>
+    <!-- Enlace a Bootstrap (asegúrate de que el enlace sea válido) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/css/estiloreservar.css" >
+   <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="contenedorreservar" id="fondoreservar">
+        <img src="../images/SierraOutdoors.png" width="100px" height="100px" > 
+        <h2>Rappel Mirador del Cedral + Las Goteras</h2><br><br>
+        <form>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6"> 
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div class="col-md-6 col-sm-6"> 
+                    <label for="apellido">Apellido:</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                </div>
+            </div>
+            
+                
+           
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6"> 
+                <label for="diaReservacion">Día de la Reservación:</label>
+                <input type="date" class="form-control" id="diaReservacion">
+                    </div>
+                    <div class="col-md-6 col-sm-6"> 
+                <label> Telefono</label>
+                <input type="number" class="form-control" id="telefono">
+                        </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <br><br>
+                <div class="row"> 
+                    <div  class="col-sm-6"> 
+                <label for="seleccionaNumero">Seleccione el número de asistentes:</label>
+                <select id="seleccionaNumero" class="form-control" name="seleccionaNumero" onchange="calcularMonto()">
+                    <!-- Utilizamos JavaScript para generar opciones del 1 al 30 -->
+                    <script>
+                        for (let i = 2; i <= 30; i++) {
+                            document.write(`<option value='${i}'>${i}</option>`);
+                        }
+                    </script>
+                </select>
+                </div>
+                <div  class="col-sm-6">
+                <p id="resultado">El monto a pagar por persona es: <span id="montoAPagar"><strong>$599</strong> </span> </p>
+            </div>
+        </div>
+            </div>
+           
+
+    <script>
+        function calcularMonto() {
+            // Obtener el elemento select y el elemento span
+            var selectElement = document.getElementById("seleccionaNumero");
+            var spanElement = document.getElementById("montoAPagar");
+
+            // Obtener el valor seleccionado
+            var selectedValue = parseInt(selectElement.value);
+
+            // Verificar si el valor es un número válido
+            if (!isNaN(selectedValue)) {
+                // Calcular el monto multiplicando por 590
+                var montoCalculado = selectedValue * 599;
+
+                // Mostrar el resultado en el span
+                spanElement.textContent = montoCalculado;
+            }
+        }
+    </script>
+            <button type="submit" class="btn btn-primary">Reservar</button>
+        </form>
+    </div>
+
+<!-- Scripts de Bootstrap (asegúrate de que los enlaces sean válidos) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

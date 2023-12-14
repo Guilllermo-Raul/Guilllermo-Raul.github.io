@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>iniciar sesion</title>
+   </head>
+   <style>
+           .logoInicio{
+            max-width: 100%;
+            max-height: 100%;
+            vertical-align: middle;
+            text-align: center;
+          
+           } 
+
+   </style>
+   <body>
+      <div class="login">
+         <img src="assets/img/paisaje-bosque.jpg" alt="login image" class="login__img">
+
+         <h5><p class="text-primary"><?php echo "$notificacion";  ?></p></h5>
+
+         <form method="POST" action="control_autenticacion.php" class="login__form">
+            <div class="logoInicio"> 
+               <img  src="assets/img/SierraOutdoors.png" width="100px" height="10l0px"  alt="">
+            </div>
+           
+            <h1 class="login__title">iniciar sesión</h1>
+
+            <div class="login__content">
+               <div class="login__box">
+                  <i class="ri-user-3-line login__icon"></i>
+
+                  <div class="login__box-input">
+                     <input type="email" name="txtUser" required class="login__input" id="login-email" placeholder=" ">
+                     <label for="login-email" class="login__label">Email</label>
+                  </div>
+               </div>
+
+               <div class="login__box">
+                  <i class="ri-lock-2-line login__icon"></i>
+
+                  <div class="login__box-input">
+                     <input type="password"  name="txtPasswd"  required class="login__input" id="login-pass" placeholder=" ">
+                     <label for="login-pass" class="login__label">Password</label>
+                     <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                  </div>
+               </div>
+            </div>
+
+           
+
+            <button type="submit"  name="btnIngresar" class="login__button">Iniciar sesión</button>
+
+            <p class="login__register">
+               No tienes una cuenta? <a href="#">Registrarse</a>
+            </p>
+         </form>
+      </div>
+      
+      <!--=============== MAIN JS ===============-->
+     
+   </body>
+</html>

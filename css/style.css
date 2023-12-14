@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+
+.titulos {
+    font-family: 'Anton', sans-serif ;
+    font-size: 50px;
+    color: rgb(33, 33, 34);
+    text-align: center;
+
+
+
+}
+.titulosQ {
+    font-family: 'Anton', sans-serif ;
+    font-size: 80px;
+    color: rgb(33, 33, 34);
+    text-align: center;
+
+}
+.tituloequipo {
+    font-family: 'Anton', sans-serif ;
+    font-size: 60px;
+    color: rgb(33, 33, 34);
+    text-align: center;
+
+}
+.titulotour {
+    font-family: 'Anton', sans-serif ;
+    font-size: 20px;
+    color: rgb(33, 33, 34);
+    text-align: center;
+
+
+
+}
+#titulovivir {
+    font-family: 'Anton', sans-serif ;
+    font-size: 90px;
+    color: rgb(255, 242, 242);
+    text-align: center;
+}
+.titulovivir1 {
+    
+    font-size: 27px;
+    color: rgb(230, 230, 255);
+    text-align: center;
+}
+.tituloSierra {
+    font-family: 'Anton', sans-serif ;
+    font-size: 35px;
+    color: rgb(33, 33, 34);
+    text-align: center;
+}
+.textop p{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contenedorprivacidad{
+    max-width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 0;
+    padding: 15px 10px;
+    background-color: #000000;
+}
+
+#privacidad{
+    text-align: center;
+    color: #ffffff;
+}
+ /*quieneso somos transicion fin*/
+.contenedorscroll {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .aparecer {
+    text-align: center;
+  }
+  
+  .apareciendo {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /*quieneso somos transicion fin*/
+.header{
+
+    background-image: 
+        url(../images/Principal1.jpg);
+    /* hacer negro la img
+     background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(../images/Principal1.jpg); */
+    
+   
+    height: 500px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;/*bajar img */
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*menu-----------------------------------------------------------------*/
+.menu{
+   
+    position: relative;
+    
+    top: 0;
+    left: 0;/*hacer para un lado el menu*/
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9FAFC;
+    
+    padding: 1px 20px; /* Ajusta el padding para hacer el menú más ancho */
+    width: 100%; /* Haz que el menú ocupe el 100% del ancho de su contenedor */
+
+    /* Puedes ajustar este valor según tus preferencias */
+    max-width: 1200px; /* Por ejemplo, establecer un máximo ancho de 1200px */
+    margin: 0 auto; /* Centra el menú horizontalmente dentro del máximo ancho */
+
+}
+
+
+.logo{
+    color: #FFFDFC;
+    font-size: 25PX;
+    font-weight: 800;
+
+}
+
+/**----------menu-------*/
+
+.menu .navbar ul li  {
+    position: relative;
+    float: left;
+
+    padding: 8px 0; /* Añade padding arriba y abajo para dar espacio al contenido del nav */
+    
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #1b1817;
+    display: block;
+    font-weight: 600;
+
+}
+
+.menu .navbar ul li a:hover {
+    color: #CE9678;
+}
+
+#menu {
+    display: none;
+
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display:  none;
+}
+
+
+/*fin menu */
+
+
+
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #EBAD8D;
+}
+.coffee{
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.coffee-content {
+    text-align: center;
+}
+
+.coffee-content h2 {
+    font-size: 55px;
+    line-height: 70x;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+
+}
+
+.coffee-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.coffee-1 {
+    padding: 0 25px;
+}
+.coffee-1 img {
+    width: 200px;
+}
+.coffee-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.coffee-1 h3 {
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services { 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(../images/senderismo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;    
+    
+}
+/*para movier el contenido del fixed img*/
+.services-content {
+    text-align: center;
+}
+.services-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 0 100px;
+}
+
+.services-1 img {
+    width: 75px;
+    margin-bottom: 15px;
+}
+.services-1 h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+/*----------------general parte*/
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50px;
+    padding: 100px 250px 10px 10px;
+    background-color: #E1E2E6;
+}
+.general-2 {
+    background-image: url(../images/coffe-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(../images/coffee-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width: 50%;
+}
+
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+/*FIN GENERAL---------------------------*/
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+link h3 {
+    font-size: 18px;
+    color: #F9FAFC;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #C5C5C5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media (max-width:991px) {
+    .menu {
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: #f2f2f5;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    
+
+    .header {
+        min-height: 0vh;
+    }
+
+.header-content {
+    padding: 100px 30px;
+}
+
+.header-content p {
+    padding: 0;
+
+}
+
+
+
+.coffee {
+    padding: 30px;
+}
+.coffee-content h2 {
+    padding: 0;
+}
+.txt-p {
+    padding: 0;
+}
+
+.coffee-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.coffee-img {
+    display: none;
+}
+/*
+.services {
+    padding: 30px;
+}*/
+
+.services-content p {
+    padding: 10;
+}
+.services-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.services-1 {
+    margin-bottom: 25px;
+}
+
+.general {
+    flex-direction: column;
+}
+.general-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.general-2, .general-3 {
+    display: none;
+}
+.blog {
+    padding: 30px;
+}
+.blog-content {
+    flex-direction: column;
+
+}
+.blog-1 {
+    padding: 0;
+}
+.footer {
+    padding: 30px;
+}
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}
+}
+
+
+
+
+
+@media (max-width:350px) {
+    .titulosQ {
+        font-family: 'Anton', sans-serif ;
+        font-size: 90px;
+        color: rgb(33, 33, 34);
+        text-align: center;
+    
+    
+    
+    }
+    .menu {
+        padding: 10px;
+    }
+    .menu label{
+        display: initial;
+        
+    }
+    .menu .navbar {
+        position: relative;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+      
+      
+      
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+       display: initial;
+    
+
+    }
+
+
+    
+
+    .header {
+        min-height: 0vh;
+    }
+
+.header-content {
+    padding: 100px 30px;
+}
+
+.header-content p {
+    padding: 0;
+
+}
+.coffee {
+    padding: 30px;
+}
+.coffee-content h2 {
+    padding: 0;
+}
+.txt-p {
+    padding: 0;
+}
+
+.coffee-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.coffee-img {
+    display: none;
+}
+.services {
+    padding: 30px;
+}
+
+.services-content p {
+    padding: 0;
+}
+.services-group {
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.services-1 {
+    margin-bottom: 25px;
+}
+
+.general {
+    flex-direction: column;
+}
+.general-1 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.general-2, .general-3 {
+    display: none;
+}
+.blog {
+    padding: 30px;
+}
+.blog-content {
+    flex-direction: column;
+
+}
+.blog-1 {
+    padding: 0;
+}
+.footer {
+    padding: 30px;
+}
+.footer-content {
+    flex-direction: column;
+    text-align: center;
+}
+}
+
+@media (min-width:  350px) {
+    .tituloSierra {
+        font-family: 'Anton', sans-serif ;
+        font-size: 25px;
+        color: rgb(33, 33, 34);
+        text-align: center;
+    }
+ 
+}
